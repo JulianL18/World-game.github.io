@@ -1,0 +1,156 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de contacto</title>
+  <link rel="stylesheet" href="contacto.css">
+  <link rel="icon" href="/IMG/Logo.png">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <style>
+    .log {
+        text-decoration: none;
+        color: white;
+    }
+
+    .cata {
+        text-decoration: none;
+        color: white;
+    }
+
+    .ini {
+        text-decoration: none;
+        color: white;
+    }
+
+    .cont {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .nos {
+        text-decoration: none;
+        color: white;
+    }
+
+</style>
+  </head>
+
+
+<body>  
+
+    <header>
+        <div class="encabezado">
+
+            <div class="logo">
+                <a href="index.html">
+                    <img src="/IMG/Logo.png" alt="Logo">
+                </a>
+            </div>
+
+            <div class="catalogo">
+                <a href="catalogo.html" class="cata"> Catálogo </a>
+            </div>
+
+            <div class="inicio">
+                <a href="index.html" class="ini"> Inicio </a>
+            </div>
+
+            <div class="contacto">
+                <a href="contacto.html" class="cont"> Contacto </a>
+            </div>
+
+            <div class="nosotros">
+                <a href="nosotros.html" class="nos"> Nosotros </a>
+            </div>
+
+            <div class="login">
+                <a href="login.html" class="log"> Login </a>
+            </div>
+
+        </div>
+
+
+    </header>
+
+  <div class="contact_form">
+
+    <div class="formulario">      
+      <h1>Formulario de contacto</h1>
+        <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+
+
+          <form action="submeter-formulario.php" method="post">       
+
+            
+                <p>
+                  <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+              
+                <p>
+                  <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+            
+                <p>
+                  <label for="telefone" class="colocar_telefono">Teléfono
+                  </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>    
+              
+                <p>
+                  <label for="asunto" class="colocar_asunto">Asunto
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                </p>    
+              
+                <p>
+                  <label for="mensaje" class="colocar_mensaje">Mensaje
+                    <span class="obligatorio">*</span>
+                  </label>                     
+                                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                </p>                    
+              
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                <p class="aviso">
+                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>          
+            
+          </form>
+    </div>  
+  </div>
+
+  <footer>
+    <h1 class="text"> 
+      Redes Sociales
+    </h1>
+    
+    <div class="iconos">
+      
+      <div class="border-icon"> 
+        <a href="https://www.instagram.com/" target="_blank">
+          <i class='bx bxl-instagram'></i>
+        </a>
+      </div>
+      
+        <div class="border-icon" >
+          <a href="https://co.linkedin.com/" target="_blank">
+            <i class='bx bxl-linkedin' ></i>
+          </a>
+      </div>
+      
+      <div class="border-icon">
+        <a href="https://es-la.facebook.com/" target="_blank">
+          <i class='bx bxl-facebook-circle' ></i>
+        </a>
+      </div>
+
+  </footer>
+
+</body>
+</html>

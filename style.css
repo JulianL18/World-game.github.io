@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.bienvenidos {
+    font-size: 50px;
+    text-align: center;
+}
+
+.oferta {
+    font-size: 30px;
+}
+
+.oferta img {
+    width: 220px;
+    height: 220px;
+    padding-left: 600px;
+}
+
+body {
+    background-image: url("IMG/Background 2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor {
+    margin-top: 5vh;
+}

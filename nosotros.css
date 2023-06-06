@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+}
+
+body {
+    background-image: url("IMG/Background 2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+
+.mision {
+    text-align: center;
+}
+
+.parrafo_mision {
+    text-align: justify;
+    padding: 40px;
+    margin: 40px;
+}
+
+.vision {
+    text-align: center;
+}
+
+.parrafo_vision {
+    text-align: justify;
+    padding: 40px;
+    margin: 40px;
+}
